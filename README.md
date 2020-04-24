@@ -1,24 +1,8 @@
-# README
+# Store
+Ejemplo de un CRUD sencillo para gestionar productos, artículos y comentarios
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+- [Ruby on Rails: Guía para principiantes](https://guides.rubyonrails.org/getting_started.html)
+- [Crear CRUD completo con Ruby on Rails explicado paso a paso](https://www.youtube.com/watch?v=RjF3u_TLtFo)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
