@@ -21,7 +21,7 @@ $ git clone https://github.com/cryselayala98/store
 4. Instalar o actualizar todas las gemas del proyecto
 
 ```
-$ Bundle install
+$ bundle install
 ```
 
 4. Migrar la información a la base de datos en SQLite
