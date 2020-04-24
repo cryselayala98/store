@@ -1,0 +1,2 @@
+para ver lo que hice:
+http://localhost:3000/products

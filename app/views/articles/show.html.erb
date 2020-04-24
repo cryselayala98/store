@@ -1,0 +1,29 @@
+
+<p>
+    <strong>Título:</strong>
+    <%= @article.title %>
+</p>
+ 
+<p>
+    <strong>Texto:</strong>
+    <%= @article.text %>
+</p>
+
+</br>
+
+<%= link_to 'Editar', edit_article_path(@article) %> | 
+<%= link_to 'Atrás', articles_path %>
+
+</br>
+
+<h2>Comentarios</h2>
+<!-- @article.comments.each do |comment| ><end -->
+<%= render @article.comments %> <!--mostrar el archivo _comment-->
+
+</br>
+
+<h2>Añadir un comentario:</h2>
+
+<!--Mostrar el contenido de _form de la carpata comments de la vista-->
+<%= render 'comments/form' %>
+

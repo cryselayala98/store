@@ -1,0 +1,26 @@
+<%= form_for @product do |f|%> <!--form_for -> una funcion de los helpers de 
+                              rails-->
+    <div>
+        <%= f.label :name %> <!-- otro helper de rails, label-->
+        <%= f.text_field :name %> <!-- otro helper de rails, input-->
+    </div>
+
+    <div>
+        <%= f.label :description %> <!-- otro helper de rails, label-->
+        <%= f.text_area :description %> <!-- otro helper de rails, input-->
+    </div>
+
+    <div>
+        <%= f.label :text %> <!-- otro helper de rails, label-->
+        <%= f.text_area :text %> <!-- otro helper de rails, input-->
+    </div>
+
+    <div>
+        <%= f.label :price %> <!-- otro helper de rails, label-->
+        <%= f.number_field :price %> <!-- otro helper de rails, input-->
+    </div>
+
+    <div>
+        <%= f.submit %>
+    </div>
+<%  end %>
